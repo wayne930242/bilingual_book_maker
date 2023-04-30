@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bilingual-book-maker"
+version = "0.1.0"
+description = ""
+authors = ["Wei Hung <wayne930242@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bilingual_book_maker"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+openai = "^0.27.5"
+requests = "^2.29.0"
+ebooklib = "^0.18"
+rich = "^13.3.5"
+tqdm = "^4.65.0"
+tiktoken = "^0.3.3"
+bbook-maker = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

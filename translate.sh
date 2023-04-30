@@ -1,0 +1,1 @@
+python make_book.py --book_name Improv_for_gamers_PDF-j8krjl.epub --prompt my_prompt_template.json --language zh-hant --output Improv_for_gamers_PDF-j8krjl_zh-hant.epub
